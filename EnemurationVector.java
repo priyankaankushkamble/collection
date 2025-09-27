@@ -1,0 +1,21 @@
+import java.util.*;
+public class EnemurationVector
+{
+	public static void main(String x[])
+	{
+		Vector v=new Vector();
+		v.add(10);
+		v.add(20);
+		v.add(30);
+		v.add(40);
+
+		Enumeration enm = v.elements();
+		while(enm.hasMoreElements())
+		{
+
+			Object obj=enm.nextElement();
+			System.out.println(obj);
+		}
+	
+	}
+}
